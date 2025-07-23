@@ -2,7 +2,7 @@
 OpenMOSS presents a collection of our research on LLMs, supported by SII, Fudan and Mosi.
 
 
-# Projects:
+# Projects
 
 ## MOSS-Audio
 ### MOSS: Text to Spoken Dialogue Generation
@@ -14,14 +14,15 @@ OpenMOSS presents a collection of our research on LLMs, supported by SII, Fudan 
 Coming soon!
 ## MOSS-Robot
 Coming soon!
-## Language-Model-SAEs
+## MOSS-Interp
+### Language-Model-SAEs
 `Language-Model-SAEs` is a comprehensive, **fully-distributed** framework designed for **training, analyzing and visualizing Sparse Autoencoders (SAEs)**, empowering scalable and systematic **Mechanistic Interpretability** research.
-### 🔗 Resources
+#### 🔗 Resources
 - 🤗 HuggingFace: [Llama Scope](https://huggingface.co/fnlp/Llama-Scope)
 - 🌐 Neuronpedia: [Llama Scope Visualization](https://www.neuronpedia.org/llama-scope)
 - 💻 GitHub: [Language-Model-SAEs](https://github.com/OpenMOSS/Language-Model-SAEs)
 
-# Research:
+# Research
 ## Embodied-AI
 - [World-Aware-Planning](https://github.com/sjh0354/World-Aware-Planning)
 - [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1)
