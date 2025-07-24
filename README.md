@@ -18,7 +18,7 @@ Coming soon!
 ## MOSS-Robot
 Coming soon!
 
-## MOSS-Interp
+## MOSS-Aiology
 
 ### Language-Model-SAEs
 `Language-Model-SAEs` is a comprehensive, **fully-distributed** framework designed for **training, analyzing and visualizing Sparse Autoencoders (SAEs)**, empowering scalable and systematic **Mechanistic Interpretability** research.
