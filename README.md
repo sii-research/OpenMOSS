@@ -24,6 +24,8 @@ Coming soon!
 
 # Research
 ## Embodied-AI
+- **VLABench** [arXiv](https://arxiv.org/abs/2412.18194) [Github](https://github.com/OpenMOSS/VLABench) ICCV 2025
+  - The first robot manipulation benchmark designed to evalute the multi-dimensional ability of general purpose Vision-Language-Action Models.
 - [World-Aware-Planning](https://github.com/sjh0354/World-Aware-Planning)
 - [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1)
 ## NewArch
