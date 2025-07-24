@@ -1,5 +1,5 @@
 # OpenMOSS
-OpenMOSS presents a collection of our research on LLMs, supported by SII, Fudan and Mosi.
+[OpenMOSS](https://github.com/OpenMOSS) presents a collection of our research on LLMs, supported by SII, Fudan and Mosi.
 
 
 # Projects
@@ -24,16 +24,16 @@ Coming soon!
 
 # Research
 ## Embodied-AI
+The Embodied AI Team empowers large models to execute real-world tasks, aiming to automate tedious chores and unlock superhuman intelligence through environmental interaction. We believe true AI emerges from engaging with the physical world.
 - **VLABench** [arXiv](https://arxiv.org/abs/2412.18194) [Github](https://github.com/OpenMOSS/VLABench) ICCV 2025
   - The first robot manipulation benchmark designed to evalute the multi-dimensional ability of general purpose Vision-Language-Action Models.
-- [World-Aware-Planning](https://github.com/sjh0354/World-Aware-Planning)
-- [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1)
+- **World-Aware-Planning** [arXiv](https://arxiv.org/pdf/2506.21230) [Github](https://github.com/sii-research/World-Aware-Planning)
+- **Embodied-Planner-R1** [arXiv](https://arxiv.org/abs/2506.23127v1) [Github](https://github.com/OpenMOSS/Embodied-Planner-R1)
+- **Dual Preference Optimization for Embodied Task Planning** [arXiv](https://arxiv.org/abs/2503.10480) [Github](https://github.com/sinwang20/D2PO) ACL 2025
 ## NewArch
 SII-OpenMOSS New Architecture Team explores new architectures and paradigms of LLMs, from the perspective of improving the long-context capability and efficiency of LLMs
 - **ReAttention** [arXiv](https://arxiv.org/abs/2407.15176) [Github](https://github.com/OpenMOSS/ReAttention) ICLR 2025
   - A training-free approach that enables LLM to support an infinite context in length extrapolation with finite attention scope.
-- **VideoRoPE** [arXiv](https://arxiv.org/abs/2502.05173) [Github](https://github.com/Wiselnn570/VideoRoPE) ICML 2025 Oral
-  - A superior video rotary position embedding incorporating 3D structure, frequency allocation, spatial symmetry, and temporal scaling.
 - **FouierAttention** [arXiv](https://arxiv.org/abs/2506.11886)
   - A training-free framework that exploits the heterogeneous roles of transformer head dimensions.
 - **LongLLaDA** [arXiv](https://arxiv.org/abs/2506.14429) [Github](https://github.com/OpenMOSS/LongLLaDA)
