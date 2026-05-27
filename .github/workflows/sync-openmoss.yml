@@ -67,9 +67,15 @@ jobs:
         if: steps.detect.outputs.count != '0'
         run: |
           TODAY=$(date -u +%Y-%m-%d)
+          COUNT="${{ steps.detect.outputs.count }}"
+          PENDING_LIST=$(paste -sd "," new.txt)
 
-          # Bump the "Last updated" line in README.
-          sed -i "s/_Last updated: [0-9-]*_/_Last updated: ${TODAY}_/" README.md
+          # Bump the "Last updated" line and embed the pending-review state.
+          # Including the list in the line guarantees a real diff whenever the
+          # set of new repos changes, so the PR step always has something to
+          # commit. When the PR is merged (or repos are added to the README),
+          # tracked.txt grows, comm shrinks, and the line collapses back.
+          sed -i -E "s|_Last updated:[^_]*_|_Last updated: ${TODAY} — ${COUNT} new repo(s) pending review: ${PENDING_LIST}_|" README.md
 
           # Compose PR body with a curation checklist.
           {
