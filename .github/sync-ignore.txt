@@ -1,0 +1,10 @@
+# Repositories to permanently skip when the weekly sync workflow detects
+# new entries in the OpenMOSS organization. One repo name per line.
+# Lines starting with # are NOT honored by grep -F — keep this header above
+# the first entry, never inline with a name.
+#
+# Add a name here when you've reviewed a sync PR and decided the repo is
+# not worth featuring on this curated page (forks, demos, internal tools,
+# papers preferred to live elsewhere, etc.).
+
+BandPO
