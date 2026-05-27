@@ -100,7 +100,11 @@ jobs:
         if: steps.detect.outputs.count != '0'
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use a PAT (stored as repo secret SYNC_TOKEN) because the
+          # sii-research org policy blocks the default GITHUB_TOKEN from
+          # creating pull requests. The PAT needs Contents: RW and
+          # Pull requests: RW on sii-research/OpenMOSS.
+          token: ${{ secrets.SYNC_TOKEN }}
           branch: sync/openmoss
           delete-branch: true
           commit-message: "chore: sync OpenMOSS (${{ steps.detect.outputs.count }} new repo(s))"
