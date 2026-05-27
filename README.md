@@ -114,6 +114,7 @@ The SII-OpenMOSS New Architecture Team explores new architectures and paradigms 
 |---|---|
 | **UnifiedToolHub** · [GitHub](https://github.com/OpenMOSS/UnifiedToolHub) | A comprehensive project supporting LLM-based tool use — unifies dataset formats and provides training, annotation, and evaluation functionalities. |
 | **ABC-Bench** · [GitHub](https://github.com/OpenMOSS/ABC-Bench) | A benchmark for agentic backend coding — evaluates whether code agents can explore repos, edit code, configure environments, deploy services, and pass external end-to-end API tests. |
+| **OurClaw** · [GitHub](https://github.com/OpenMOSS/OurClaw) | Institutional OpenClaw Solution. Share One Claw with Others. |
 
 ---
 
