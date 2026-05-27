@@ -4,7 +4,7 @@
 
 > 📌 This page is a curated overview. For the complete and most recent list of repositories, visit the [OpenMOSS organization](https://github.com/OpenMOSS).
 >
-> _Last updated: 2026-05-27 — 2 new repo(s) pending review: OurClaw,Ultra-Innerthought_
+> _Last updated: 2026-05-27_
 
 ---
 
@@ -114,6 +114,7 @@ The SII-OpenMOSS New Architecture Team explores new architectures and paradigms 
 |---|---|
 | **UnifiedToolHub** · [GitHub](https://github.com/OpenMOSS/UnifiedToolHub) | A comprehensive project supporting LLM-based tool use — unifies dataset formats and provides training, annotation, and evaluation functionalities. |
 | **ABC-Bench** · [GitHub](https://github.com/OpenMOSS/ABC-Bench) | A benchmark for agentic backend coding — evaluates whether code agents can explore repos, edit code, configure environments, deploy services, and pass external end-to-end API tests. |
+| **OurClaw** · [GitHub](https://github.com/OpenMOSS/OurClaw) | Institutional OpenClaw Solution. Share One Claw with Others. |
 
 ---
 
