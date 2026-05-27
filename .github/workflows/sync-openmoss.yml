@@ -106,6 +106,9 @@ jobs:
           commit-message: "chore: sync OpenMOSS (${{ steps.detect.outputs.count }} new repo(s))"
           title: "Sync OpenMOSS: ${{ steps.detect.outputs.count }} new repo(s) detected"
           body-path: pr_body.md
+          # Only commit README — keep intermediate working files (repos.json,
+          # new.txt, tracked.txt, pr_body.md, etc.) out of the PR.
+          add-paths: README.md
           labels: |
             sync
             openmoss
