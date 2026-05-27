@@ -4,7 +4,7 @@
 
 > 📌 This page is a curated overview. For the complete and most recent list of repositories, visit the [OpenMOSS organization](https://github.com/OpenMOSS).
 >
-> _Last updated: 2026-05-27_
+> _Last updated: 2026-05-27 — 2 new repo(s) pending review: OurClaw,Ultra-Innerthought_
 
 ---
 
