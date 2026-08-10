@@ -1,16 +1,62 @@
-# OpenMOSS
+<div align="center">
 
-[OpenMOSS](https://github.com/OpenMOSS) presents a collection of our research on Large Language Models and Multimodal Foundation Models, supported by [Shanghai Innovation Institute (SII)](https://www.sii.edu.cn/), Fudan University, and MOSI.AI.
+<img src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/moss-logo.svg" width="420" alt="OpenMOSS" />
 
-> 📌 This page is a curated overview. For the complete and most recent list of repositories, visit the [OpenMOSS organization](https://github.com/OpenMOSS).
->
-> _Last updated: 2026-05-27_
+**Shanghai Innovation Institute (SII) · Fudan University · MOSI.AI**
+
+Open, collaborative research on Large Language Models and Multimodal Foundation Models.
+
+<p>
+  <a href="https://openmoss.ai/"><img src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/badges/website.svg" alt="Website"></a>
+  <a href="https://huggingface.co/OpenMOSS-Team"><img src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/badges/huggingface.svg" alt="Hugging Face"></a>
+  <a href="https://github.com/OpenMOSS"><img src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/badges/github.svg" alt="GitHub"></a>
+  <a href="mailto:openmoss@sii.edu.cn"><img src="https://raw.githubusercontent.com/OpenMOSS/.github/main/profile/assets/badges/contact.svg" alt="Email"></a>
+</p>
+
+</div>
 
 ---
 
-# Projects
+## 👋 About Us
 
-## MOSS-LLM
+OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai Innovation Institute (SII) and working in close collaboration with Fudan University and MOSI.AI. We conduct cutting-edge research across the full LLM stack — from model architecture and training to evaluation, interpretability, and real-world applications — with a strong commitment to open and reproducible science.
+
+> _Last updated: 2026-08-10_
+
+## 🔬 Research Directions
+
+| Direction | Flagship Repositories |
+|---|---|
+| 🧠 **Foundation LLMs** | [MOSS](https://github.com/OpenMOSS/MOSS) |
+| 👁️ **Vision & Video** | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) · [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) · [MOVA](https://github.com/OpenMOSS/MOVA) |
+| 🌐 **Omni LLMs** | [AnyGPT](https://github.com/OpenMOSS/AnyGPT) |
+| 🗣️ **Speech / TTS** | [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) · [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) · [MOSS-TTSD](https://github.com/OpenMOSS/MOSS-TTSD) · [MOSS-Audio-Tokenizer](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer) |
+| 🗣️ **Speech / Transcribe** | [MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize) |
+| 🗣️ **Speech / Interaction** | [MOSS-Speech](https://github.com/OpenMOSS/MOSS-Speech) · [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview) |
+| 🎵 **Audio & Music** | [MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio) · [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) |
+| 🤖 **Embodied AI & Robotics** | [RoboOmni](https://github.com/OpenMOSS/RoboOmni) · [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) · [OpenETA](https://github.com/OpenMOSS/OpenETA) |
+| 🔍 **Interpretability** | [Llamascopium](https://github.com/OpenMOSS/Llamascopium) · [Lorsa](https://github.com/OpenMOSS/Lorsa) |
+| 📊 **Benchmarks & Evaluation** | [VLABench](https://github.com/OpenMOSS/VLABench) · [GAOKAO-MM](https://github.com/OpenMOSS/GAOKAO-MM) · [Say-I-Dont-Know](https://github.com/OpenMOSS/Say-I-Dont-Know) |
+| ⚡ **Efficiency & Long Context** | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) · [LongLLaDA](https://github.com/OpenMOSS/LongLLaDA) · [rope_pp](https://github.com/OpenMOSS/rope_pp) |
+| 📚 **Survey** | [Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM) · [Thus-Spake-Long-Context-LLM](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) |
+
+## ✨ Recent Highlights
+
+- **[MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano)** — 0.1B-param multilingual TTS that runs directly on CPU, no GPU required · ~4.1k★
+- **[MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS)** — Expressive speech & sound-generation family: long-form, multi-speaker, voice/character design, and streaming TTS · ~4.0k★
+- **[MOSS-Transcribe-Diarize](https://github.com/OpenMOSS/MOSS-Transcribe-Diarize)** — Speech transcription with speaker diarization for multi-speaker, long-form audio · ~1.4k★
+- **[Awesome-WAM](https://github.com/OpenMOSS/Awesome-WAM)** — Continuously updated reading list and resources for World Action Models in embodied AI · ~1.2k★
+- **[MOVA](https://github.com/OpenMOSS/MOVA)** — Scalable and synchronized video–audio generation · ~1.1k★
+- **[MOSS-Audio](https://github.com/OpenMOSS/MOSS-Audio)** — Unified audio-understanding foundation model spanning speech, sound, music, captioning, QA, and reasoning · ~630★
+- **[VLABench](https://github.com/OpenMOSS/VLABench)** — ICCV 2025 benchmark for evaluating VLA models, embodied agents, and VLMs · ~460★
+- **[MOSS-VL](https://github.com/OpenMOSS/MOSS-VL)** — Core multimodal vision-understanding series with the full training stack open-sourced · ~410★
+- **[OpenETA](https://github.com/OpenMOSS/OpenETA)** — Embodied task agent that extends the agentic loop from the digital world into the physical world · ~110★
+
+> See the [OpenMOSS organization](https://github.com/OpenMOSS) for quick access, or browse [all 60+ repositories](https://github.com/orgs/OpenMOSS/repositories).
+
+## 📚 Project Portfolio
+
+### MOSS-LLM
 Foundation language models and training infrastructure.
 
 | Project | Description |
@@ -18,7 +64,7 @@ Foundation language models and training infrastructure.
 | [MOSS](https://github.com/OpenMOSS/MOSS) | An open-source tool-augmented conversational language model from Fudan University — the founding project of the OpenMOSS series. |
 | [CoLLiE](https://github.com/OpenMOSS/CoLLiE) | A library for collaborative training of large language models in an efficient way. |
 
-## MOSS-VL
+### MOSS-VL
 Multimodal models for visual and video understanding.
 
 | Project | Description |
@@ -26,7 +72,7 @@ Multimodal models for visual and video understanding.
 | [MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) | Core multimodal model series within the OpenMOSS ecosystem, dedicated to visual understanding. Includes the XRoPE architecture and a fully open training stack. |
 | [MOSS-Video-Preview](https://github.com/OpenMOSS/MOSS-Video-Preview) | A real-time video understanding foundation model built on Llama-3.2-Vision, with comprehensively extended video processing and multimodal reasoning capabilities. |
 
-## MOSS-Audio
+### MOSS-Audio
 End-to-end models for audio understanding and generation — speech, sound, music.
 
 | Project | Description |
@@ -40,7 +86,7 @@ End-to-end models for audio understanding and generation — speech, sound, musi
 | [MOSS-Music](https://github.com/OpenMOSS/MOSS-Music) | Music understanding model for captioning, lyrics ASR, structural analysis, chord/key/tempo reasoning, and long-form musical QA. |
 | [SpeechGPT-2.0-preview](https://github.com/OpenMOSS/SpeechGPT-2.0-preview) | GPT-4o-level, real-time spoken dialogue system. |
 
-## MOSS-Omni
+### MOSS-Omni
 Unified multimodal generation across modalities.
 
 | Project | Description |
@@ -48,18 +94,19 @@ Unified multimodal generation across modalities.
 | [AnyGPT](https://github.com/OpenMOSS/AnyGPT) | Unified multimodal LLM with discrete sequence modeling. |
 | [MOVA](https://github.com/OpenMOSS/MOVA) | Towards scalable and synchronized video–audio generation. |
 
-## MOSS-Robot
+### MOSS-Robot
 Embodied AI: humanoid control, robotic manipulation, and embodied planning.
 
 | Project | Description |
 |---|---|
 | [FRoM-W1](https://github.com/OpenMOSS/FRoM-W1) | Towards general humanoid whole-body control with language instructions (arXiv 2026). Supports Unitree H1/G1 and FFTAI humanoid robots. |
 | [RoboOmni](https://github.com/OpenMOSS/RoboOmni) | Proactive robot manipulation in omni-modal context. |
+| [OpenETA](https://github.com/OpenMOSS/OpenETA) | An embodied task agent that extends the agentic loop from the digital world into the physical world. |
 | [Embodied-Planner-R1](https://github.com/OpenMOSS/Embodied-Planner-R1) · [arXiv](https://arxiv.org/abs/2506.23127v1) | A reinforcement learning framework that enables LLMs to acquire embodied planning capabilities through autonomous exploration with sparse rewards. |
 | [RoboJuDo](https://github.com/OpenMOSS/RoboJuDo) | Deployment framework for the FRoM-W1 humanoid project. |
 | [VehicleWorld](https://github.com/OpenMOSS/VehicleWorld) | First comprehensive multi-device environment for intelligent vehicle interaction, modeling complex interconnected systems in modern cockpits. |
 
-## MOSS-Aiology
+### MOSS-Aiology
 Mechanistic interpretability of large language models.
 
 | Project | Description |
@@ -69,9 +116,9 @@ Mechanistic interpretability of large language models.
 
 ---
 
-# Research
+## 🧪 Selected Research
 
-## Embodied-AI
+### Embodied-AI
 The Embodied AI Team empowers large models to execute real-world tasks, aiming to automate tedious chores and unlock superhuman intelligence through environmental interaction. We believe true AI emerges from engaging with the physical world.
 
 | Project | Venue | Description |
@@ -82,7 +129,7 @@ The Embodied AI Team empowers large models to execute real-world tasks, aiming t
 | **Embodied-Planner-R1** · [arXiv](https://arxiv.org/abs/2506.23127v1) · [GitHub](https://github.com/OpenMOSS/Embodied-Planner-R1) | — | RL framework enabling LLMs to acquire embodied planning capabilities through autonomous exploration with sparse rewards. |
 | **Awesome-WAM** · [GitHub](https://github.com/OpenMOSS/Awesome-WAM) | — | A curated, continuously updated reading list, paper blogs, and resources for World Action Models in embodied AI. |
 
-## NewArch
+### NewArch
 The SII-OpenMOSS New Architecture Team explores new architectures and paradigms of LLMs, particularly from the perspective of long-context capability and efficiency.
 
 | Project | Venue | Description |
@@ -94,13 +141,13 @@ The SII-OpenMOSS New Architecture Team explores new architectures and paradigms 
 | **FourierAttention** · [arXiv](https://arxiv.org/abs/2506.11886) | — | Training-free framework that exploits the heterogeneous roles of transformer head dimensions. |
 | **Thus Spake Long-Context LLM** · [arXiv](https://arxiv.org/abs/2502.17129) · [GitHub](https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM) | — | A survey on the lifecycle of long-context LLMs from four perspectives: architecture, infrastructure, training, and evaluation. |
 
-## Multimodal Evaluation
+### Multimodal Evaluation
 
 | Project | Venue | Description |
 |---|---|---|
 | **GAOKAO-MM** · [GitHub](https://github.com/OpenMOSS/GAOKAO-MM) | ACL 2024 Findings | A Chinese human-level benchmark for multimodal model evaluation. |
 
-## Alignment & Safety
+### Alignment & Safety
 
 | Project | Venue | Description |
 |---|---|---|
@@ -108,7 +155,7 @@ The SII-OpenMOSS New Architecture Team explores new architectures and paradigms 
 | **Say-I-Don't-Know** · [GitHub](https://github.com/OpenMOSS/Say-I-Dont-Know) | ICML 2024 | Can AI assistants know what they don't know? |
 | **LongSafety** · [GitHub](https://github.com/OpenMOSS/LongSafety) | — | Safety evaluation for long-context LLMs. |
 
-## Tool Use & Agents
+### Tool Use & Agents
 
 | Project | Description |
 |---|---|
@@ -118,6 +165,10 @@ The SII-OpenMOSS New Architecture Team explores new architectures and paradigms 
 
 ---
 
-## Contact
+## 🤝 Join Us
 
-For collaborations, internships, or general inquiries: **[openmoss@sii.edu.cn](mailto:openmoss@sii.edu.cn)**
+We welcome researchers, students, and collaborators who share our vision. For PhD/intern openings, research collaborations, or general inquiries, please reach us at **[openmoss@sii.edu.cn](mailto:openmoss@sii.edu.cn)**.
+
+---
+
+<sub>The Shanghai Innovation Institute (SII) is dedicated to fostering innovation in education and research in the field of artificial intelligence.</sub>
