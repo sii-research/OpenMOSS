@@ -21,7 +21,7 @@ Open, collaborative research on Large Language Models and Multimodal Foundation 
 
 OpenMOSS is a research group led by **Prof. Xipeng Qiu**, hosted at the Shanghai Innovation Institute (SII) and working in close collaboration with Fudan University and MOSI.AI. We conduct cutting-edge research across the full LLM stack — from model architecture and training to evaluation, interpretability, and real-world applications — with a strong commitment to open and reproducible science.
 
-> _Last updated: 2026-08-10_
+> _Last updated: 2026-09-21 — 23 new repo(s) pending review: .github,AgentHPOBench,ContextWeave,DiRL,EasyWAM,FDU-AI-PRML-2024Fall,FutureOmni,GSF-chi,MOSS-Audio-Tokenizer-Eval,MOSS-TTS-Nano-Demo,MOSS-TTS-Nano-Reader,MOSS-VL-Demo,OmniVAE,OmniVAE.github.io,OpenMOSS.github.io,SWE-bench-Science,SummerQuest-2025,SummerQuest-2026,TTSD-eval,claude-codex-handoff,imclaw-skill,llama.cpp,sglang_
 
 ## 🔬 Research Directions
 
